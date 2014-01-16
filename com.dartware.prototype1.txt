@@ -4,6 +4,10 @@
    Oh, I forgot to add the header...
 </header>
 
+<snmp-device-properties>
+   maxvars=1
+</snmp-device-properties>
+
 <snmp-device-variables>
    Null, 1.3.6, DEFAULT, ""
 </snmp-device-variables>
