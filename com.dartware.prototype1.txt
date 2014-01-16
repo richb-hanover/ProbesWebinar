@@ -3,3 +3,7 @@
 <header>
 
 </header>
+
+<snmp-device-variables>
+Null, 1.3.6, DEFAULT, ""
+</snmp-device-variables>
