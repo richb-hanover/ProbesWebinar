@@ -1,4 +1,6 @@
-<!-- com.dartware.prototype1.txt -->
+<!-- com.dartware.prototype1.txt 
+   This is a comment that describes the probe. 
+-->
 
 <header>
    Oh, I forgot to add the header...
