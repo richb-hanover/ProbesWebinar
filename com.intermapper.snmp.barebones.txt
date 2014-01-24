@@ -21,10 +21,13 @@ Barebones SNMP Probe
 </description>
 
 <snmp-device-variables>
-	ifInOctets, 	ifInOctets.13, PER-SECOND, ""
+
+--  VariableName,   ObjectID (OID),     Format,     "Label for a chart"	
+    ifInOctets,     ifInOctets.13,      PER-SECOND, "Rx #1"
+
 </snmp-device-variables>
 
 <snmp-device-display>
 Barebones SNMP Probe
-  Traffic in: ${ifInOctets} bytes/second    
+     Received Traffic: ${ifInOctets} bytes/second    
 </snmp-device-display>
