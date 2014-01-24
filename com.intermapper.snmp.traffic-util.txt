@@ -65,7 +65,7 @@ The \i\Warn Threshold\p\ and \i\Alarm Threshold\p\ parameters are in percent of 
   \4\   Received Traffic:\0\ ${ifInOctets} bytes/second    
   \4\Transmitted Traffic:\0\ ${ifOutOctets} bytes/second    
               \4\Link is:\0\ ${ifOperStatusStr} \g3i\1=up; 2=down; 3=testing\p0m\
-  \4b\  Warn/Alarm set on: ${Warn Threshold Proc} / ${Alarm Threshold Proc} \P0\
+  \4b\  Warn/Alarm set on: ${Warn Threshold Pct} / ${Alarm Threshold Pct} \P0\
   \4\    Received Util %:\0\ ${InUtil} %
   \4\ Transmitted Util %:\0\ ${OutUtil} %
 </snmp-device-display>
